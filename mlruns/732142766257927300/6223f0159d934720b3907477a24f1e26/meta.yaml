@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/gonza/OneDrive/Escritorio/Machine%20Learning%20-%20Kibernum/Modulo%2010/Actividad3_GonzaloMoyano/mlruns/732142766257927300/6223f0159d934720b3907477a24f1e26/artifacts
+end_time: 1758584030068
+entry_point_name: ''
+experiment_id: '732142766257927300'
+lifecycle_stage: active
+run_id: 6223f0159d934720b3907477a24f1e26
+run_name: upbeat-lamb-244
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758584022452
+status: 3
+tags: []
+user_id: gonza

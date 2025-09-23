@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/gonza/OneDrive/Escritorio/Machine%20Learning%20-%20Kibernum/Modulo%2010/Actividad3_GonzaloMoyano/mlruns/732142766257927300/models/m-e6a7f5a9e0854085942c97b309b7bde9/artifacts
+creation_timestamp: 1758583927232
+experiment_id: '732142766257927300'
+last_updated_timestamp: 1758583930989
+model_id: m-e6a7f5a9e0854085942c97b309b7bde9
+model_type: null
+name: modelo
+source_run_id: 86d3c946c5964bdb802e39df21330bc8
+status: 2
+status_message: null

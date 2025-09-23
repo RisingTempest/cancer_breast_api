@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/gonza/OneDrive/Escritorio/Machine%20Learning%20-%20Kibernum/Modulo%2010/Actividad3_GonzaloMoyano/mlruns/732142766257927300/29f7286008df48c4bdf717d5b1ba10b8/artifacts
+end_time: 1758583759375
+entry_point_name: ''
+experiment_id: '732142766257927300'
+lifecycle_stage: active
+run_id: 29f7286008df48c4bdf717d5b1ba10b8
+run_name: rumbling-newt-267
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758583750207
+status: 3
+tags: []
+user_id: gonza

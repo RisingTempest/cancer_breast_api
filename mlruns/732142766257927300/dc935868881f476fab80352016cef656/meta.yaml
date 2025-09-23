@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/gonza/OneDrive/Escritorio/Machine%20Learning%20-%20Kibernum/Modulo%2010/Actividad3_GonzaloMoyano/mlruns/732142766257927300/dc935868881f476fab80352016cef656/artifacts
+end_time: 1758584068499
+entry_point_name: ''
+experiment_id: '732142766257927300'
+lifecycle_stage: active
+run_id: dc935868881f476fab80352016cef656
+run_name: adaptable-squid-860
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758584061402
+status: 3
+tags: []
+user_id: gonza

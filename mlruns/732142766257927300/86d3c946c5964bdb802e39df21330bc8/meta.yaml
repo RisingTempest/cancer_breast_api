@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/gonza/OneDrive/Escritorio/Machine%20Learning%20-%20Kibernum/Modulo%2010/Actividad3_GonzaloMoyano/mlruns/732142766257927300/86d3c946c5964bdb802e39df21330bc8/artifacts
+end_time: 1758583931011
+entry_point_name: ''
+experiment_id: '732142766257927300'
+lifecycle_stage: active
+run_id: 86d3c946c5964bdb802e39df21330bc8
+run_name: classy-cow-158
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758583923811
+status: 3
+tags: []
+user_id: gonza
