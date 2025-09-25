@@ -21,11 +21,11 @@ jobs:
 
       # 3️. Build de la imagen Docker
       - name: Build Docker image
-        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/breastcancer-api:v1 .
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/breastcancer-api:v2 .
 
       # 4️. Correr contenedor para test
       - name: Run container
-        run: docker run -d -p 5001:5001 --name test-container ${{ secrets.DOCKER_USERNAME }}/breastcancer-api:v1
+        run: docker run -d -p 5001:5001 --name test-container ${{ secrets.DOCKER_USERNAME }}/breastcancer-api:v2
 
       # 5️. Esperar un par de segundos para que arranque la API
       - name: Wait for API
@@ -41,4 +41,4 @@ jobs:
 
       # 8️. Push a Docker Hub
       - name: Push Docker image
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/breastcancer-api:v1
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/breastcancer-api:v2
