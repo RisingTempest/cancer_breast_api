@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/gonza/OneDrive/Escritorio/Machine%20Learning%20-%20Kibernum/Modulo%2010/Actividad3_GonzaloMoyano/mlruns/732142766257927300/models/m-803ec5ddf7834cc4b64d427b3b34b405/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+mlflow_version: 3.4.0
+model_id: m-803ec5ddf7834cc4b64d427b3b34b405
+model_size_bytes: 142449
+model_uuid: m-803ec5ddf7834cc4b64d427b3b34b405
+prompts: null
+run_id: dd5d1e59eb9f409e9e72a285335b9779
+utc_time_created: '2025-09-23 20:20:53.226249'

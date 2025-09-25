@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/gonza/OneDrive/Escritorio/Machine%20Learning%20-%20Kibernum/Modulo%2010/Actividad3_GonzaloMoyano/mlruns/732142766257927300/dd5d1e59eb9f409e9e72a285335b9779/artifacts
+end_time: 1758658859635
+entry_point_name: ''
+experiment_id: '732142766257927300'
+lifecycle_stage: active
+run_id: dd5d1e59eb9f409e9e72a285335b9779
+run_name: sassy-toad-149
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758658849513
+status: 3
+tags: []
+user_id: gonza

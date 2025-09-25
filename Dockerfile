@@ -15,7 +15,7 @@ COPY modelo.pkl .
 COPY app.py .
 
 # Exponer el puerto donde correrá Flask
-EXPOSE 5000
+EXPOSE 5001
 
 # Comando por defecto al correr el contenedor
 CMD ["python", "app.py"]

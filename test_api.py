@@ -1,6 +1,6 @@
 import requests
 
-url = "http://127.0.0.1:5000/predict"
+url = "http://127.0.0.1:5001/predict"
 
 examples = [
     [14.5, 20.1, 90.3, 600.0, 0.1, 0.2, 0.3, 0.1, 0.25, 0.08,
