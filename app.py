@@ -75,6 +75,14 @@ def predict():
         return jsonify({"error": f"Internal server error: {str(e)}"}), 500
 
 # ----------------------
+# Ruta alternativa para Azure ML
+# ----------------------
+@app.route("/score", methods=["POST"])
+def score():
+    return predict()
+
+
+# ----------------------
 # Ejecutar app localmente
 # ----------------------
 if __name__ == "__main__":
