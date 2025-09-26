@@ -1,6 +1,11 @@
 import requests
 
-url = "http://127.0.0.1:5001/predict"
+url = "URL"
+
+headers = {
+    "Authorization": "Bearer key",
+    "Content-Type": "application/json"
+}
 
 examples = [
     [14.5, 20.1, 90.3, 600.0, 0.1, 0.2, 0.3, 0.1, 0.25, 0.08,
@@ -18,15 +23,30 @@ examples = [
 
 # for i, features in enumerate(examples, 1):
 for i, features in enumerate(examples, 1):
-    response = requests.post(url, json={"features": features})
-    pred = response.json().get("prediction")
+    response = requests.post(url, headers=headers, json={"features": features})
+    print(f"Status code: {response.status_code}")
+    print(f"Raw response: {response.text}")
+
+    try:
+        pred = response.json().get("prediction")
+    except Exception as e:
+        print(f"Error al decodificar JSON: {e}")
+        pred = None
 
     # Mapear a texto
     if pred == 0:
         class_name = "Maligno"
     elif pred == 1:
         class_name = "Benigno"
+    elif pred is None:
+        class_name = "Error en la respuesta"
     else:
         class_name = "Desconocido"
 
     print(f"Ejemplo {i}: {{'prediction': {pred}}} - {class_name}")
+
+
+
+
+
+

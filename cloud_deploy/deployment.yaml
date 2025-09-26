@@ -1,0 +1,17 @@
+$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
+name: default
+endpoint_name: breastcancer-endpoint
+environment:
+  image: risingtempest13/breastcancer-api:v2
+  inference_config:
+    liveness_route:
+      path: /
+      port: 5001
+    readiness_route:
+      path: /
+      port: 5001
+    scoring_route:
+      path: /predict
+      port: 5001
+instance_type: Standard_DS2_v2
+instance_count: 1
